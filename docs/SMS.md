@@ -36,14 +36,14 @@ print(response.json())
 				"option_id": 1,
 				"option_name": "Opção 1",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 			{
 				"service_id": 2,
 				"option_id": 2,
 				"option_name": "Opção 2",
 				"rate": 3.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 			
 			
@@ -55,14 +55,14 @@ print(response.json())
 				"option_id": 3,
 				"option_name": "Opção 1",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 			{
 				"service_id": 4,
 				"option_id": 4,
 				"option_name": "Opção 2",
 				"rate": 3.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 		]
 	},
@@ -74,7 +74,7 @@ print(response.json())
 				"option_id": 5,
 				"option_name": "Opção 1",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 			
 			{
@@ -82,7 +82,7 @@ print(response.json())
 				"option_id": 6,
 				"option_name": "Opção 2",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 		
 		],
@@ -92,7 +92,7 @@ print(response.json())
 				"option_id": 7,
 				"option_name": "Opção 1",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 			
 			{
@@ -100,7 +100,7 @@ print(response.json())
 				"option_id": 8,
 				"option_name": "Opção 2",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 		
 		],
@@ -110,7 +110,7 @@ print(response.json())
 				"option_id": 9,
 				"option_name": "Opção 1",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 			
 			{
@@ -118,7 +118,7 @@ print(response.json())
 				"option_id": 10,
 				"option_name": "Opção 2",
 				"rate": 2.3,
-				"currency: "BRL",
+				"currency": "BRL",
 			},
 		
 		],
@@ -364,7 +364,7 @@ print(response.json())
     "created_at": 1609470000,
     "expiration": 1609470600,
     "rate": 2.3,
-    "currency": "BRL" 
+    ": "BRL" 
 }
 ```
   
