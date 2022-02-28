@@ -244,7 +244,7 @@ print(response.json())
 
 ## Refil de um pedido
 
-** Nota:** Os paineis SMM mais modernos estão implementando refil automático, visto que o refil manual segue um formato rudimentar, com uma série de problemáticas técnicas. Caso você venha ser um revendedor, opte por fazer o mesmo. No geral, a Fruiitbots possui poucos serviços com refil manual habilitado, focamos em distribuir serviços que com refil automatizado, sem quaisquer interações humanas no processo. Dito isto, caso ocorra a situação de haver refil manual.. siga os passos abaixo.
+** Nota:** Os paineis SMM mais modernos estão implementando refil automático, visto que o refil manual segue um formato rudimentar, com uma série de problemáticas técnicas. Caso você venha ser um revendedor, opte por fazer o mesmo. No geral, a Fruiitbots possui poucos serviços com refil manual habilitado, focamos em distribuir serviços com refil automatizado, sem quaisquer interações humanas no processo. Dito isto, caso ocorra a situação de haver refil manual.. siga os passos abaixo.
 
 
 ## Exemplo em Python

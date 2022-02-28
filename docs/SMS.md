@@ -342,7 +342,7 @@ from httpx import post
 data = {
     "key": "YOUR_API_KEY",
     "action": "rebuy"
-	"service": 11,
+	"order_id": 20339,
 }
 
 response = post(
@@ -358,7 +358,7 @@ print(response.json())
 ```
 {
     "status": "waiting_sms",
-    "order_id": 20339,
+    "order_id": 20340,
     "telephone_number": "+5573983184911",
     "country": "brazil",
     "created_at": 1609470000,
