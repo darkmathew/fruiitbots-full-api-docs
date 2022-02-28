@@ -190,8 +190,6 @@ print(response.json())
 
 `unauthorized` - Sua chave não tem autoridade para realizar o tipo de ação requerido.
 
-`restore` - Número restaurado para uso
-
 
 ## Comprar número
 
@@ -333,7 +331,8 @@ print(response.json())
 
 ## Readquirir um número utilizado anteriormente
 
-**Nota:** números restaurados possuem suas caixas esvaziadas, logo não é possível recuperar mensagens antigas.
+**Nota 1:** números restaurados possuem suas caixas esvaziadas, logo não é possível recuperar mensagens antigas.
+
 
 ### Exemplo em Python
 ```{.py3 linenums="1"} 
