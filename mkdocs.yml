@@ -1,0 +1,29 @@
+site_name: FruiitBots API Docs
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: purple
+      toggle:
+        icon: material/weather-night
+        name: Modo Escuro
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Modo Claro
+
+
+
+markdown_extensions:
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      title: Conteúdos da página
+
+plugins:
+  - search:
+      lang: pt
