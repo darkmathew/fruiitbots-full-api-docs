@@ -164,7 +164,7 @@ print(response.json())
 
 ## Status padrões das requisições
 
-**Nota:**: Eventualmente, novos retornos podem ser incluídos no sistema e não necessariamente serão registrados aqui nesta documentação, no mesmo período. Portanto, catalogue novos retornos da API com o passar do tempo.
+**Nota:** Eventualmente, novos retornos podem ser incluídos no sistema e não necessariamente serão registrados aqui nesta documentação, de forma breve. Portanto, realize o catalogo de novos retornos da API em seu backend.
 
 `sms_received` - O número recebeu um SMS (logo impossibilitado de ser cancelado o pedido)
 
@@ -318,12 +318,11 @@ print(response.json())
             "body_message": "319768 is your Instagram code",
             "sms_code": "319768"
         },
-
         {
             "body_message": "035462 is your Instagram code",
             "sms_code": "035462"
-        },
-    ],
+        }
+    ]
  
 }  
    
@@ -363,7 +362,7 @@ print(response.json())
     "created_at": 1609470000,
     "expiration": 1609470600,
     "rate": 2.3,
-    ": "BRL" 
+    "currency" : "BRL" 
 }
 ```
   
