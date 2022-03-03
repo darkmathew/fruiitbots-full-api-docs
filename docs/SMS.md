@@ -33,13 +33,11 @@ print(response.json())
 		"service_name_1": [
 			{
 				"service_id": 1,
-				"option_name": "Opção 1",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
 			{
 				"service_id": 2,
-				"option_name": "Opção 2",
 				"rate": 3.3,
 				"currency": "BRL",
 			},
@@ -50,13 +48,11 @@ print(response.json())
 		"service_name_2": [
 			{
 				"service_id": 3,
-				"option_name": "Opção 1",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
 			{
 				"service_id": 4,
-				"option_name": "Opção 2",
 				"rate": 3.3,
 				"currency": "BRL",
 			},
@@ -67,14 +63,12 @@ print(response.json())
 		"service_name_1": [
 			{
 				"service_id": 5,
-				"option_name": "Opção 1",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
 			
 			{
 				"service_id": 6,
-				"option_name": "Opção 2",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
@@ -83,14 +77,12 @@ print(response.json())
 		"service_name_2": [
 			{
 				"service_id": 7,
-				"option_name": "Opção 1",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
 			
 			{
 				"service_id": 8,
-				"option_name": "Opção 2",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
@@ -99,14 +91,12 @@ print(response.json())
 		"service_name_3": [
 			{
 				"service_id": 9,
-				"option_name": "Opção 1",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
 			
 			{
 				"service_id": 10,
-				"option_name": "Opção 2",
 				"rate": 2.3,
 				"currency": "BRL",
 			},
