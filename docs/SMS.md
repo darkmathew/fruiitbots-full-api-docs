@@ -13,7 +13,8 @@ from httpx import post
 
 data = {
     "key": "YOUR_API_KEY",
-    "action": "services"
+    "action": "services",
+	"content": "country_name"
 }
 
 response = post(
@@ -27,88 +28,71 @@ print(response.json())
 
 ### Exemplo de resposta 
 
+`brl_rate` - Valor em real brasileiro em formato decimal com o símbolo R$
+
+`category` - Nome do serviço
+
+`currency` - Moeda do serviço: padrão BRL
+
+`rate` - Valor do produto em ponto flutuante
+
+`service_id` - ID do serviço
+
+
 ```
-{
-	"country_1": {
-		"service_name_1": [
-			{
-				"service_id": 1,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-			{
-				"service_id": 2,
-				"rate": 3.3,
-				"currency": "BRL",
-			},
-			
-			
-		],
-		
-		"service_name_2": [
-			{
-				"service_id": 3,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-			{
-				"service_id": 4,
-				"rate": 3.3,
-				"currency": "BRL",
-			},
-		]
+[
+	{
+		"brl_rate": "R$ 2,47",
+		"category": "ifood",
+		"currency": "BRL",
+		"rate": 2.47,
+		"service_id": 5072
 	},
-	"country_2": {
-	
-		"service_name_1": [
-			{
-				"service_id": 5,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-			
-			{
-				"service_id": 6,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-		
-		],
-		"service_name_2": [
-			{
-				"service_id": 7,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-			
-			{
-				"service_id": 8,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-		
-		],
-		"service_name_3": [
-			{
-				"service_id": 9,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-			
-			{
-				"service_id": 10,
-				"rate": 2.3,
-				"currency": "BRL",
-			},
-		
-		],
-	
-	}
+	{
+		"brl_rate": "R$ 2,29",
+		"category": "ifood",
+		"currency": "BRL",
+		"rate": 2.29,
+		"service_id": 5074
+	},
+	{
+		"brl_rate": "R$ 2,11",
+		"category": "netflix",
+		"currency": "BRL",
+		"rate": 2.11,
+		"service_id": 5138
+	},
+	{
+		"brl_rate": "R$ 1,94",
+		"category": "netflix",
+		"currency": "BRL",
+		"rate": 1.94,
+		"service_id": 5140
+	},
+	{
+		"brl_rate": "R$ 1,59",
+		"category": "shopee",
+		"currency": "BRL",
+		"rate": 1.59,
+		"service_id": 5171
+	},
+	{
+		"brl_rate": "R$ 1,88",
+		"category": "shopee",
+		"currency": "BRL",
+		"rate": 1.88,
+		"service_id": 5173
+	},
+	{
+		"brl_rate": "R$ 1,67",
+		"category": "snapchat",
+		"currency": "BRL",
+		"rate": 1.67,
+		"service_id": 5174
+	},
 
+]
 
-}
-
-   
 ```
 
 ## Obtenha a lista de países disponíveis
